@@ -80,7 +80,7 @@ header {
     margin-bottom: 25px;
 }
 
-div.logo img {
+a.logo img {
     width: 45px;
     position: absolute;
     top: 16px;
@@ -528,11 +528,12 @@ section.footer div a {
         align-items: center;
     }
 
-    header>div {
+    header>div,
+    header>a {
         padding: 10px;
     }
 
-    div.logo img {
+    a.logo img {
         width: 50px;
         position: relative;
         top: 0;
