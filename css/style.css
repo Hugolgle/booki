@@ -25,7 +25,7 @@ body {
 
 div.main-container {
     width: 100%;
-    /* max-width: 1440px; */
+    max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -112,6 +112,10 @@ nav.nav li {
 nav.nav li:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
+}
+
+nav.nav a {
+    padding: 17.5px 0;
 }
 
 /****** Recherche ***********/
@@ -569,10 +573,6 @@ section.footer div a {
     nav.nav li:hover {
         border-bottom: 2px solid #0065FC;
         border-top: none;
-    }
-
-    nav.nav li>a {
-        width: 50%;
     }
 
 
