@@ -38,7 +38,7 @@ a {
 
 h1,
 h2,
-h2,
+h3,
 p {
     margin: 0;
 }
@@ -48,7 +48,13 @@ h1 {
 }
 
 h2 {
+    font-size: 16px;
+}
+
+h3 {
     font-size: 14px;
+    font-weight: lighter;
+    margin: 7px 0;
 }
 
 .section-title {
