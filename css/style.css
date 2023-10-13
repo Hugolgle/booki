@@ -37,9 +37,17 @@ a {
 
 h1,
 h2,
-h3,
+h2,
 p {
     margin: 0;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 14px;
 }
 
 .section-title {
@@ -127,6 +135,10 @@ div.txt {
     padding: 20px 0;
 }
 
+div.txt h1 {
+    font-size: 20px;
+}
+
 div.txt p {
     margin: 5px 0 0 0;
     font-size: 15px;
@@ -190,8 +202,9 @@ div.filter {
     padding: 20px 0;
 }
 
-div.filter h3 {
+div.filter p {
     margin-right: 10px;
+    font-weight: 900;
 }
 
 div.filter button {
@@ -246,14 +259,9 @@ div.hebergements-title {
     align-items: center;
 }
 
-div.hebergements-cards .card {
-    width: 250px;
-    margin: 15px 0;
-}
-
 div.hebergements-cards img {
     width: 100%;
-    height: 160px;
+    height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -265,18 +273,23 @@ div.hebergements-cards .card-content {
 
 div.hebergements-cards {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
     box-sizing: border-box;
+    gap: 5%;
 }
 
 div.hebergements-cards .card-rating {
     margin-bottom: 8px;
 }
 
-div.hebergements-cards h3,
+div.hebergements-cards h2,
 div.hebergements-cards p {
     margin: 7px 0;
+}
+
+div.plus {
+    margin-top: 50px;
 }
 
 /****** Populaires ***********/
@@ -338,14 +351,15 @@ section.activites {
 }
 
 div.activites-cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
     width: 100%;
+    justify-content: space-between;
+
 }
 
 div.activites-cards .card {
-    width: 300px;
+    width: 100%;
     height: 420px;
     padding: 0;
     margin: 15px 0;
@@ -380,9 +394,14 @@ section.footer div {
     padding: 5px;
 }
 
-section.footer div h3,
+section.footer div p,
 section.footer div a {
     margin: 10px;
+}
+
+section.footer div p {
+    font-weight: 900;
+    font-size: 18px;
 }
 
 
@@ -430,8 +449,6 @@ section.footer div a {
     }
 
     div.hebergements-cards .card {
-        width: 200px;
-        height: 180px;
         font-size: 14px;
     }
 
@@ -501,7 +518,7 @@ section.footer div a {
         height: 210px;
     }
 
-    div.activites-cards .card h3 {
+    div.activites-cards .card h2 {
         font-size: 10px;
         margin-top: 5px;
     }
@@ -524,7 +541,7 @@ section.footer div a {
         padding: 0;
     }
 
-    h3 {
+    h2 {
         font-size: 16px;
     }
 
@@ -653,7 +670,7 @@ section.footer div a {
         text-align: left;
     }
 
-    div.buttons button h3 {
+    div.buttons button h2 {
         font-size: 10px;
     }
 
@@ -756,7 +773,7 @@ section.footer div a {
         height: 20%;
     }
 
-    div.activites-cards .card h3 {
+    div.activites-cards .card h2 {
         font-size: 13px;
     }
 
@@ -773,7 +790,7 @@ section.footer div a {
         font-size: 12px;
     }
 
-    section.footer h3 {
+    section.footer h2 {
         font-size: 12px;
     }
 
